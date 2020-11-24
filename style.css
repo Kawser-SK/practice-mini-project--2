@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    overflow: hidden;
+    
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+.header-section{
+    background: #fcdb00;
+    padding-top: 40px;
+}
+.logo{
+    float: left;
+}
+.logo i{
+    font-size:60px;
+}
+.por{
+    position: relative;
+}
+.logo span{
+    font-size: 35px;
+    display: block;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+    font-weight: 800;
+    
+}
+.menu{
+    float: right;
+}
+.menu ul a{
+    color: #000;
+    text-decoration: none;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 25px;
+}
+.slider{
+    background: #fcdb00;
+    padding-bottom: 60px;
+}
+
+.perag{
+    width: 50%;
+    float: left;
+}
+.slider-pic{
+    width: 50%;
+    float: right;
+}
+.slider-pic img {
+    width: 268px;
+    height: 394px;
+}
+.perag h2{
+    margin-top: 180px;
+    font-size: 40px;
+}
+.perag h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 70%;
+}
+.perag p{
+    width: 70%;
+    font-size: 19px;
+}
+.icon li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 30px;
+    font-size: 40px;
+    padding-right: 20px;
+
+}
+.slider-pic img{
+    padding-top: 160px;
+    padding-left: 150px;
+    
+}
+.fratur{
+    width: 70%;
+    margin: auto;
+}
+.fratur h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 10px;
+
+}
+.fratur p{
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 60px;
+
+}
+
+
+
+
+/*  Serice Item  */
+.services-items {
+    margin-top: 90px;
+}
+.service-box {
+    height: 250px;
+    width: 344px;
+    margin-right: 1%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.service-box:nth-child(3n+3){
+    margin-right: 0;
+}
+.s-icon {
+    width:53px;
+    float: left;
+    min-height: 168px;
+    font-size: 52px;
+    margin-right: 15px;
+}
+
+.s-content h3 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.s-content p {
+    color: #767676;
+    font-size: 20px;
+    line-height: 1.1em;
+}
+
+
+.footer-section{
+    background: #010101;
+    padding-bottom: 50px;
+}
+
+.cc{
+    color: #fcdb00;
+}
+.wh{
+    color: rgb(218, 222, 224);
+}
+.search-box{
+    text-align: center;
+    padding: 10px 20px;
+}
+.search-box input{
+    padding: 13px 220px 13px 10px;
+}
+.search-box button{
+    padding: 7px 50px 12px 30px;
+    font-size: 17px;
+    font-weight: 800;
+    background: #fcdb00;
+}
+.social-icon{
+    text-align: center;
+    padding-top: 50px;
+}
+.social-icon li{
+    list-style: none;
+    margin-left: 0;
+    display: inline-block;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    
+}
+.social-icon li i{
+    color:#fcdb00;
+    background: #000;
+   font-size: 50px;
+}
+.contract{
+ overflow: hidden;
+}
+.contract li{
+    list-style: none;
+}
+.contract a{
+    text-decoration: none;
+    color: rgb(214, 196, 196);
+    font-size: 20px;
+}
+.contract .address{
+    margin-right: 120px;
+    margin-left: 20px;
+    color: rgb(211, 207, 207);
+    line-height: 1.4;
+}
+.contract .exampls{
+    margin-right: 120px;
+    line-height: 1.3;
+}
+.contract .contact{
+    margin-right: 120px;
+    line-height: 1.3;
+}
+.contract .download{
+    margin-right: 120px;
+    line-height: 1.3;
+}
+.meadia{
+    line-height: 1.3;
+}
